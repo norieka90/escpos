@@ -18,7 +18,7 @@ if (!isset($argument1)) {
     die();
 }
 
-// $debug = isset($argv[2]) && $argv[2] == "-v";
+$debug = isset($argv[2]) && $argv[2] == "-v";
 // $debug = 1;
 
 // Load in a file
