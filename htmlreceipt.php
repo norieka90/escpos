@@ -10,7 +10,7 @@ use ReceiptPrintHq\EscposTools\Parser\Context\InlineFormatting;
 if ($_GET) {
 
     $argument1 = $_GET['argument1'];
-    print_r ($argument1);
+    // print_r ($argument1);
 
 } else {
     $argument1 = $argv[1];
